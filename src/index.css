@@ -1,9 +1,4 @@
-TaskFlow — Prompt completo para atualizar o GitHub
-Cole cada bloco no arquivo correspondente dentro do seu repositório.
-Depois faça: `git add . \&\& git commit -m "feat: melhorias completas" \&\& git push`
----
-📄 `src/store/index.js`
-```jsx
+jsx
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 
@@ -2819,6 +2814,3 @@ export default function Assistant() {
     </div>
   )
 }
-
-```
----
